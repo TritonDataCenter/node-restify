@@ -2,6 +2,10 @@
 
 ## not yet released
 
+## 2.8.6
+
+- #878 Improvements to HTTP proxy handling
+
 ## 2.8.5
 
 - Add ability to listen for error events
