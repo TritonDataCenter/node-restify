@@ -2,6 +2,9 @@
 
 ## not yet released
 
+- #1024 Added server option: 'ignoreUncaughtExceptions' to allow disabling
+        of the uncaughtException error handling
+
 ## 2.8.6
 
 - #878 Improvements to HTTP proxy handling
