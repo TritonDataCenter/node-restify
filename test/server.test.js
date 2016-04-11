@@ -1670,7 +1670,7 @@ test('fire event on error', function (t) {
 });
 
 
-test('GH-1024 uncaughtException disabling', function (t) {
+test('GH-1024 disable uncaughtException handler', function (t) {
     // With uncaughtException handling disabled, the node process will abort,
     // so testing of this feature must occur in a separate node process.
 

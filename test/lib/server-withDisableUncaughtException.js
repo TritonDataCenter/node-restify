@@ -6,7 +6,7 @@ var restify = require('../../lib');
 
 function main() {
     var port = process.env.UNIT_TEST_PORT || 0;
-    var server = restify.createServer({'ignoreUncaughtExceptions': true});
+    var server = restify.createServer({'handleUncaughtExceptions': false});
     server.get('/', function (req, res, next) {
         throw new Error('Catch me!');
     });
