@@ -2,6 +2,15 @@
 
 ## Not Yet Released
 
+## 2.3.5-amon
+
+joyent/sdc-amon is currently bound to an old forked version of amon.  Being on
+an old & forked version of restify is among several intertwined strands of
+technical debt in amon.  This branch exists to allow minor changes on top of
+said fork to unblock work on other strands of debt.
+
+- bump node-trace-provider for TRITON-1658
+
 ## 2.3.5
 
 - bunyan@0.20.0
